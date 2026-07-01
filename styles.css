@@ -368,7 +368,7 @@ strong { color: var(--text); font-weight: 600; }
   border-color: rgba(34,211,238,.25);
 }
 .exp-card:hover { transform: translateY(-4px); border-color: var(--border-strong); box-shadow: 0 20px 50px -20px rgba(0,0,0,.5); }
-.exp-header { display: flex; gap: 18px; margin-bottom: 20px; align-items: flex-start; }
+.exp-header { display: flex; gap: 18px; margin-bottom: 20px; align-items: center; }
 .exp-logo {
   width: 52px; height: 52px; border-radius: 14px;
   display: grid; place-items: center;
@@ -381,6 +381,9 @@ strong { color: var(--text); font-weight: 600; }
   font-size: 22px; font-weight: 600; line-height: 1.2;
 }
 .exp-role { font-size: 13px; color: var(--text-muted); margin-top: 4px; display: inline-block; }
+.exp-subrole { padding-top: 20px; margin-top: 20px; border-top: 1px solid var(--border); }
+.exp-subrole:first-of-type { padding-top: 0; margin-top: 0; border-top: none; }
+.exp-role-title { display: block; font-size: 14px; font-weight: 600; color: var(--accent); margin-bottom: 16px; }
 .exp-points { display: flex; flex-direction: column; gap: 12px; margin-bottom: 22px; }
 .exp-points li {
   padding-left: 22px; position: relative;
